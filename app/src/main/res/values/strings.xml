@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practica17_Fragments</string>
+    <string name="datos">DATOS</string>
+    <string name="foto">FOTO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="dni">DNI</string>
+    <string name="delegado">DELEGADO</string>
+    <string name="image">image-id</string>
+    <string name="dniFINAL">\"DNI: \"</string>
+    <string name="nombrefinal">\"Nomre: \"</string>
+    <string name="apellidosFinal">\"Apellidos: \"</string>
+</resources>

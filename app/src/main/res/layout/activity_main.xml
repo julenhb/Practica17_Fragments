@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinnerAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabla"
+        android:layout_below="@id/spinnerAlumnos">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnDatos"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="@string/datos" />
+
+            <Button
+                android:id="@+id/btnFoto"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="@string/foto" />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="90dp"
+        android:paddingTop="10dp"
+        android:id="@+id/containerFragments"></FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="@string/delegado"
+        android:id="@+id/delegadoText"/>
+
+
+</RelativeLayout>
